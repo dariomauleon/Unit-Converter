@@ -132,3 +132,27 @@ option {
 .text-center {
   text-align: center;
 }
+
+/*  */
+.error-alert {
+  text-align: center;
+  color: #ff4d4d;
+  font-size: 0.8rem;
+  display: none;
+}
+
+.error-alert.show {
+  display: block;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

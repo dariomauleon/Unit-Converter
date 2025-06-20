@@ -17,20 +17,26 @@
         <div class="category-selector">
           <label for="">Unit Category</label>
           <select class="border-radius-5 blur-6px" name="" id=""></select>
+          <p class="error-alert">
+            The category must exist in the range of options
+          </p>
         </div>
         <div class="unit-selector">
           <div class="unit-selector-from">
             <label for="">From</label>
             <select class="border-radius-5 blur-6px" name="" id=""></select>
+            <p class="error-alert">Unit out of range</p>
           </div>
           <div class="unit-selector-to">
             <label for="">To</label>
             <select class="border-radius-5 blur-6px" name="" id=""></select>
+            <p class="error-alert">Unit out of range</p>
           </div>
         </div>
         <div class="value-input">
           <label for="">Amount</label>
           <input type="number" class="border-radius-5 blur-6px" />
+          <p class="error-alert">The value must be a number</p>
         </div>
         <div class="btn-converter">
           <button class="border-radius-5 border-none">Converter</button>
