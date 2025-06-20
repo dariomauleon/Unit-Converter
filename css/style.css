@@ -55,12 +55,6 @@ input:focus {
   box-shadow: 0 0 12px rgba(128, 0, 255, 0.4);
 }
 
-/* input[type="number"] {
-  -moz-appearance: number-input;
-  -webkit-appearance: number-input;
-  appearance: number-input;
-} */
-
 option {
   color: #0d0d0d;
 }
@@ -116,24 +110,7 @@ option {
   box-shadow: 0 0 15px rgba(128, 0, 255, 0.3);
 }
 
-/* Utilities */
-.border-radius-5 {
-  border-radius: 0.5rem;
-}
-
-.border-none {
-  border: none;
-}
-
-.blur-6px {
-  backdrop-filter: blur(6px);
-}
-
-.text-center {
-  text-align: center;
-}
-
-/*  */
+/* Estilos error */
 .error-alert {
   text-align: center;
   color: #ff4d4d;
@@ -155,4 +132,32 @@ option {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@media screen and (min-width: 62.5rem) {
+  .unit-converter {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    max-width: 900px;
+    height: max-content;
+    padding: 10vh 10vw 2vh;
+  }
+}
+
+/* Utilities */
+.border-radius-5 {
+  border-radius: 0.5rem;
+}
+
+.border-none {
+  border: none;
+}
+
+.blur-6px {
+  backdrop-filter: blur(6px);
+}
+
+.text-center {
+  text-align: center;
 }
